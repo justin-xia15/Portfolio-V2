@@ -3,14 +3,17 @@ const xButton = document.querySelector('.closebtn');
 const links = document.querySelector('.overlay-content');
 
 
-/* Open when someone clicks on the span element */
 function open() {
   document.getElementById("myNav").style.width = "100%";
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
 function close() {
   document.getElementById("myNav").style.width = "0%";
+}
+
+function toggle() {
+  hamburger.style.color = '#000';
+  document.body.style.backgroundColor = '#fff';
 }
 
 hamburger.addEventListener('click', open);
