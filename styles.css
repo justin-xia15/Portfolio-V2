@@ -9,6 +9,11 @@ body {
   margin: 5% 5% 0 0;
 }
 
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
 .overlay {
   height: 100%;
   width: 0;
