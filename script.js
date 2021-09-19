@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
 const xButton = document.querySelector('.closebtn');
-const links = document.querySelector('.overlay-content');
+const links = document.querySelectorAll('.link');
+const overlay = document.querySelector('.overlay');
 
 
 function open() {
@@ -18,3 +19,4 @@ function toggle() {
 
 hamburger.addEventListener('click', open);
 xButton.addEventListener('click', close);
+links.forEach(link => link.addEventListener('click', close));
