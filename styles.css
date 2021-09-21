@@ -50,6 +50,11 @@ span {
   color: #000;
 }
 
+.link:hover {
+  text-decoration: underline;
+  text-decoration-color: #30D5C8;
+}
+
 .overlay {
   height: 100%;
   width: 0;
