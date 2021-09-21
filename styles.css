@@ -9,9 +9,16 @@ h1 {
   font-size: 5rem;
 }
 
+hr {
+  height: 3px;
+  width: 60%;
+  background: linear-gradient(to right, #808080, #FDFEFF, #808080);
+}
+
 p {
   color: #fff;
   font-size: 1rem;
+  padding-bottom: 5%;
 }
 
 section {
