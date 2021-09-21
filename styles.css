@@ -1,11 +1,12 @@
 body {
   background-color: #000;
+  font-family: 'Montserrat';
   text-align: center;
 }
 
 h1 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 p {
@@ -14,11 +15,20 @@ p {
 }
 
 section {
-  /* padding-left: 7%;
-  padding-right: 7%;
-  padding-bottom: 8%;
-  padding-top: 8%; */
   padding: 7%;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-color: #FAFF00;
+}
+
+.main-heading {
+  font-size: 15rem;
+  font-family: 'Fira Sans';
+  position: relative;
+  margin-top: 40%;
+  padding-bottom: 45%;
 }
 
 .hamburger {
