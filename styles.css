@@ -50,6 +50,19 @@ section {
   margin: 5% 5% 0 0;
 }
 
+.resume {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Fira Sans';
+  height: 100px;
+  width: 200px;
+  font-size: 2rem;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+}
+
 .light {
   background-color: #fff;
   color: #000;
