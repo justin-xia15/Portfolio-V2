@@ -25,17 +25,22 @@ section {
   padding: 7%;
 }
 
-span {
-  text-decoration: underline;
-  text-decoration-color: #FAFF00;
-}
-
 .main-heading {
   font-size: 15rem;
   font-family: 'Fira Sans';
   position: relative;
   margin-top: 40%;
   padding-bottom: 45%;
+}
+
+.name {
+  text-decoration: underline;
+  text-decoration-color: #FAFF00;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .hamburger {
