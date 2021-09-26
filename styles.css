@@ -19,6 +19,12 @@ section {
   padding: 7%;
 }
 
+.skill-name {
+  font-size: 1.8rem;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+
 .main-heading {
   font-size: 15rem;
   font-family: 'Fira Sans';
@@ -125,7 +131,6 @@ section {
   height: 100px;
   width: 180px;
   padding: 20px;
-  color: blue;
   font-size: 4.5rem;
   margin-left: 20%;
 }
