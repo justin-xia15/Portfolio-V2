@@ -40,7 +40,7 @@ section {
 
 .title {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .hamburger {
@@ -52,15 +52,16 @@ section {
 
 .resume {
   background-color: transparent;
+  display: inline-block;
   border: 1px solid #fff;
   color: #fff;
   font-family: 'Fira Sans';
   height: 100px;
-  width: 200px;
+  width: 300px;
   font-size: 2rem;
   position: absolute;
   top: 85%;
-  left: 20%;
+  left: 35%;
 }
 
 .light {
