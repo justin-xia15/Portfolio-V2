@@ -15,12 +15,6 @@ hr {
   background: linear-gradient(to right, #808080, #FDFEFF, #808080);
 }
 
-p {
-  color: #fff;
-  font-size: 1rem;
-  padding-bottom: 5%;
-}
-
 section {
   padding: 7%;
 }
@@ -109,6 +103,12 @@ section {
   top: -5%;
   right: 5%;
   font-size: 10rem;
+}
+
+.content {
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 5%;
 }
 
 .skills-container {
