@@ -136,3 +136,20 @@ section {
 }
 
 .skill i {color: #fff;}
+
+.project {
+  height: 900px;
+  width: 600px;
+  margin-left: 9%;
+  background-color: #fff;
+}
+
+.project-img {
+  height: 350px;
+  width: 600px;
+  background-color: green;
+}
+
+.project-title {
+  font-size: 3rem;
+}
