@@ -113,7 +113,7 @@ section {
 
 .content {
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-bottom: 5%;
 }
 
@@ -138,18 +138,37 @@ section {
 .skill i {color: #fff;}
 
 .project {
-  height: 900px;
+  color: #fff;
+  height: 1000px;
   width: 600px;
   margin-left: 9%;
-  background-color: #fff;
+  margin-bottom: 20%;
+  /* background-color: #fff; */
+  font-family: 'Montserrat';
+}
+
+.project h2 {
+  font-size: 3rem;
+}
+
+.project h3 {
+  font-size: 2rem;
+}
+
+.project p {
+  font-size: 1.8rem;
+  margin: 0 5% 10% 5%;
+}
+
+.project a {
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 0 5% 0 5%;
+  text-decoration: none;
 }
 
 .project-img {
   height: 350px;
   width: 600px;
   background-color: green;
-}
-
-.project-title {
-  font-size: 3rem;
 }
