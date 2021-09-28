@@ -19,29 +19,6 @@ section {
   padding: 7%;
 }
 
-input {
-  height: 50px;
-  width: 500px;
-  font-size: 2rem;
-  margin-bottom: 10%;
-}
-
-textarea {
-  height: 300px;
-  width: 500px;
-  font-size: 2rem;
-  margin-bottom: 15%;
-  margin-left: 1%;
-}
-
-.submit-btn {
-  font-size: 1.5rem;
-  height: 70px;
-  width: 200px;
-  position: relative;
-  margin-bottom: 30%;
-}
-
 .skill-name {
   font-size: 1.8rem;
   font-family: 'Montserrat';
@@ -124,7 +101,8 @@ textarea {
   color: #000;
   display: block;
   transition: 0.3s;
-  line-height: 2.5; /* spacing between links */
+  line-height: 2.5;
+  /* spacing between links */
 }
 
 .overlay .closebtn {
@@ -158,7 +136,9 @@ textarea {
   margin-left: 20%;
 }
 
-.skill i {color: #fff;}
+.skill i {
+  color: #fff;
+}
 
 .project {
   color: #fff;
@@ -194,4 +174,16 @@ textarea {
   height: 350px;
   width: 600px;
   background-color: green;
+}
+
+.socials-container {
+  position: relative;
+  margin-left: 10%;
+}
+
+.socials-icon {
+  color: #fff;
+  font-size: 3.5rem;
+  margin-right: 12%;
+  margin-top: 8%;
 }
