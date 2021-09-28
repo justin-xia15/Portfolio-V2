@@ -19,6 +19,29 @@ section {
   padding: 7%;
 }
 
+input {
+  height: 50px;
+  width: 500px;
+  font-size: 2rem;
+  margin-bottom: 10%;
+}
+
+textarea {
+  height: 300px;
+  width: 500px;
+  font-size: 2rem;
+  margin-bottom: 15%;
+  margin-left: 1%;
+}
+
+.submit-btn {
+  font-size: 1.5rem;
+  height: 70px;
+  width: 200px;
+  position: relative;
+  margin-bottom: 30%;
+}
+
 .skill-name {
   font-size: 1.8rem;
   font-family: 'Montserrat';
