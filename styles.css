@@ -194,8 +194,14 @@ section {
     margin-bottom: 10%;
   }
 
-  .content {font-size: 2.2rem;}
+  .content { font-size: 2.2rem; }
+  .resume { top: 115%; }
+  .sidebar{ visibility: hidden; }
 
-  .resume {top: 115%;}
+}
+
+@media only screen and (min-width: 1025px) {
+  .overlay{ visibility: hidden; }
+  .hamburger { visibility: hidden; }
 
 }
