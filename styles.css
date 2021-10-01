@@ -204,4 +204,28 @@ section {
   .overlay{ visibility: hidden; }
   .hamburger { visibility: hidden; }
 
+  #intro {
+    padding-bottom: 0;
+    height: 100vh;
+  }
+
+  .main-heading {
+    font-size: 10rem;
+    margin-top: -5%;
+    padding-bottom: 5%;
+  }
+
+  .title {
+    position: relative;
+    margin-top: 3%;
+    font-size: 2rem;
+  }
+
+  .resume {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .content { font-size: 1.5rem; }
+
 }
