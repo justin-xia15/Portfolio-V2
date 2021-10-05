@@ -6,7 +6,7 @@ body {
 
 h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 hr {
@@ -111,7 +111,7 @@ section {
 
 .content {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 5%;
 }
 
@@ -145,8 +145,8 @@ section {
 
 .project {
   color: #fff;
-  height: 1200px;
-  width: 800px;
+  height: 800px;
+  width: 300px;
   margin-left: -5%;
   margin-bottom: 35%;
   /* background-color: #fff; */
@@ -154,28 +154,28 @@ section {
 }
 
 .project h2 {
-  font-size: 4rem;
+  font-size: 1.8rem;
 }
 
 .project h3 {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
 }
 
 .project p {
-  font-size: 2.2rem;
-  margin: 0 5% 10% 5%;
+  font-size: 1rem;
+  margin: 0 5% 15% 5%;
 }
 
 .project a {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 1rem;
   margin: 0 5% 0 5%;
   text-decoration: none;
 }
 
 .project-img {
-  height: 470px;
-  width: 800px;
+  height: 350px;
+  width: 300px;
   background-color: green;
 }
 
@@ -186,7 +186,7 @@ section {
 
 .socials-icon {
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 2rem;
   margin-right: 12%;
   margin-top: 8%;
 }
