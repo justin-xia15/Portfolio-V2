@@ -191,19 +191,27 @@ section {
   margin-top: 8%;
 }
 
-/* @media only screen and (min-width: 768px) {
-  .title {
-    font-size: 3rem;
-    margin-bottom: 10%;
-  }
+@media only screen and (min-width: 768px) {
+  /* Element sizing */
+   h1 { font-size: 3.8rem; }
+  .main-heading { font-size: 6.7rem; }
+  .title { font-size: 2.3rem; }
+  .hamburger { font-size: 4rem; }
+  .overlay a { font-size: 3rem; }
+  .overlay .closebtn { font-size: 6rem; }
+  .content { font-size: 1.8rem; }
 
-  .content { font-size: 2.2rem; }
-  .resume { top: 115%; }
-  .sidebar{ visibility: hidden; }
+  .resume {
+    height: 75px;
+    width: 225px;
+    font-size: 1.8rem;
+    top: 75%;
+    left: 35%;
+  }
 
 }
 
-@media only screen and (min-width: 1366px) {
+/* @media only screen and (min-width: 1366px) {
   .overlay{ visibility: hidden; }
   .hamburger { visibility: hidden; }
 
