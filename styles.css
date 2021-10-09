@@ -236,7 +236,7 @@ section {
   }
 }
 
-/* @media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .overlay{ visibility: hidden; }
   .hamburger { visibility: hidden; }
 
@@ -246,22 +246,25 @@ section {
   }
 
   .main-heading {
-    font-size: 10rem;
-    margin-top: -5%;
-    padding-bottom: 5%;
+    font-size: 9rem;
+    margin-top: -2%;
+    padding-bottom: 3%;
   }
 
   .title {
     position: relative;
-    margin-top: 3%;
+    margin-top: 5%;
+    margin-left: -3%;
     font-size: 2rem;
   }
 
   .resume {
-    margin-top: 10%;
-    margin-left: 5%;
+    height: 65px;
+    width: 195px;
+    margin-top: 5%;
+    margin-left: 7%;
   }
 
   .content { font-size: 1.5rem; }
 
-} */
+}
