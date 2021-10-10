@@ -33,7 +33,7 @@ section {
 
 .name {
   text-decoration: underline;
-  text-decoration-color: #FAFF00;
+  text-decoration-color: #30D5C8;
 }
 
 .title {
@@ -46,6 +46,10 @@ section {
   font-size: 3rem;
   text-align: right;
   margin: 5% 5% 0 0;
+}
+
+.navbar {
+  visibility: hidden;
 }
 
 .resume {
@@ -263,6 +267,23 @@ section {
     width: 195px;
     margin-top: 5%;
     margin-left: 7%;
+  }
+
+  .navbar {
+    visibility: visible;
+    height: 50px;
+    width: 600px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  .link {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-decoration: none;
   }
 
   .content { font-size: 1.5rem; }
