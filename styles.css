@@ -140,8 +140,7 @@ input:checked + .slider:before {
   left: 30%;
 }
 
-.light {
-  background-color: #fff;
+.lightmode {
   color: #000;
 }
 
