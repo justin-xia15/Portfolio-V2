@@ -1,13 +1,15 @@
+let dark = true;
 const hamburger = document.querySelector(".hamburger-icon");
 const xButton = document.querySelector(".closebtn");
 const links = document.querySelectorAll(".link");
 const overlay = document.querySelector(".overlay");
 const headings = Array.from(document.querySelectorAll("h1"));
-const toggleSwitch = document.querySelector(".round");
-let dark = true;
+const labels = Array.from(document.querySelectorAll(".skill-name"));
 const icons = document.querySelectorAll(".icon");
+const toggleSwitch = document.querySelector(".round");
 const text = [document.querySelector(".name"), document.querySelector(".title"),
-document.querySelector(".resume"), document.querySelector(".toggle-icon"), document.querySelector(".sun"), hamburger];
+document.querySelector(".resume"), document.querySelector(".toggle-icon"), document.querySelector(".sun"), hamburger,
+document.getElementsByClassName("content")[0], document.getElementsByClassName("content")[1]];
 
 
 function open() {
@@ -29,12 +31,16 @@ function toggle() {
 
     text.forEach(item => item.classList.add("lightmode"));
     headings.forEach(heading => heading.classList.add("lightmode"));
+    icons.forEach(icon => icon.style.color = "#000");
+    labels.forEach(label => label.style.color = "#000");
 
   } else {
     document.body.style.backgroundColor = "black";
     document.querySelector(".resume").style.border = "1px solid #fff";
     text.forEach(item => item.classList.remove("lightmode"));
     headings.forEach(heading => heading.classList.remove("lightmode"));
+    icons.forEach(icon => icon.style.color = "#fff");
+
   }
 }
 
