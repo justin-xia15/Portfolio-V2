@@ -378,7 +378,7 @@ input:checked + .slider:before {
     right: 5%;
   }
 
-  .link {
+  .nav-link {
     color: #fff;
     font-size: 1.5rem;
     margin-right: 5%;
