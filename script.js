@@ -6,10 +6,14 @@ const overlay = document.querySelector(".overlay");
 const headings = Array.from(document.querySelectorAll("h1"));
 const labels = Array.from(document.querySelectorAll(".skill-name"));
 const icons = document.querySelectorAll(".icon");
+const projLinks = document.querySelectorAll(".projl");
 const toggleSwitch = document.querySelector(".round");
 const text = [document.querySelector(".name"), document.querySelector(".title"),
 document.querySelector(".resume"), document.querySelector(".toggle-icon"), document.querySelector(".sun"), hamburger,
-document.getElementsByClassName("content")[0], document.getElementsByClassName("content")[1]];
+document.getElementsByClassName("content")[0], document.getElementsByClassName("content")[1], document.getElementsByClassName("projh")[0],
+document.getElementsByClassName("projh")[1], document.getElementsByClassName("projh")[2], document.getElementsByClassName("projt")[0],
+document.getElementsByClassName("projt")[1], document.getElementsByClassName("projt")[2], document.getElementsByClassName("projp")[0],
+document.getElementsByClassName("projp")[1], document.getElementsByClassName("projp")[2]];
 
 
 function open() {
@@ -33,6 +37,8 @@ function toggle() {
     headings.forEach(heading => heading.classList.add("lightmode"));
     icons.forEach(icon => icon.style.color = "#000");
     labels.forEach(label => label.style.color = "#000");
+    projLinks.forEach(link => link.style.color = "#000");
+
 
   } else {
     document.body.style.backgroundColor = "black";
