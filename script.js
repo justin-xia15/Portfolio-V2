@@ -50,6 +50,8 @@ function toggle() {
     text.forEach(item => item.classList.remove("lightmode"));
     headings.forEach(heading => heading.classList.remove("lightmode"));
     icons.forEach(icon => icon.style.color = "#fff");
+    labels.forEach(label => label.style.color = "#fff");
+
 
   }
 }
