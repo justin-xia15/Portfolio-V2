@@ -23,6 +23,10 @@ section {
   color: #fff;
 }
 
+.small {
+  font-size: 1rem;
+}
+
 .site-wrapper {
   overflow-x: hidden;
 }
@@ -187,7 +191,6 @@ input:checked + .slider:before {
 }
 
 .content {
-  font-size: 1rem;
   padding-bottom: 5%;
 }
 
@@ -209,17 +212,11 @@ input:checked + .slider:before {
   margin-left: 20%;
 }
 
-.skill-name {
-  font-size: 1rem;
-  font-family: 'Montserrat';
-}
-
 .project {
   height: 800px;
   width: 300px;
   margin-left: -5%;
   margin-bottom: 35%;
-  font-family: 'Montserrat';
 }
 
 .project h2 {
@@ -231,12 +228,10 @@ input:checked + .slider:before {
 }
 
 .project p {
-  font-size: 1rem;
   margin: 0 5% 15% 5%;
 }
 
 .project a {
-  font-size: 1rem;
   margin: 0 5% 0 5%;
   text-decoration: none;
 }
@@ -383,7 +378,7 @@ input:checked + .slider:before {
   }
 
   .toggle-icon {
-    font-size: 2rem;
+    : 2rem;
     top: 5.5%;
     left: 4%;
   }
