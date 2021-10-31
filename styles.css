@@ -23,8 +23,21 @@ section {
   color: #fff;
 }
 
-.small {
+/* Font sizes */
+.vsmall {
   font-size: 1rem;
+}
+
+.small {
+  font-size: 1.44rem;
+}
+
+.med {
+  font-size: 2.2rem;
+}
+
+.large {
+  font-size: 5.25rem;
 }
 
 .site-wrapper {
@@ -42,10 +55,6 @@ section {
 .name {
   text-decoration: underline;
   text-decoration-color: #30D5C8;
-}
-
-.title {
-  font-size: 1.5rem;
 }
 
 .hamburger {
@@ -69,7 +78,6 @@ section {
 }
 
 .toggle-icon {
-  font-size: 1.5rem;
   position: absolute;
   left: 7%;
   top: 7%;
@@ -219,10 +227,6 @@ input:checked + .slider:before {
   margin-bottom: 35%;
 }
 
-.project h2 {
-  font-size: 1.8rem;
-}
-
 .project h3 {
   font-size: 1.2rem;
 }
@@ -364,7 +368,6 @@ input:checked + .slider:before {
   }
 
   .nav-link {
-    font-size: 1.5rem;
     margin-right: 5%;
     margin-left: 5%;
     text-decoration: none;
@@ -414,10 +417,6 @@ input:checked + .slider:before {
     height: 350px;
     width: 950px;
     margin: 15% 0 35% 10%;
-  }
-
-  .project h2 {
-    font-size: 1.5rem;
   }
 
   .project h3 {
