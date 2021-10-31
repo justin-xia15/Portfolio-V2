@@ -45,7 +45,6 @@ section {
 }
 
 .main-heading {
-  font-size: 5.5rem;
   font-family: 'Fira Sans';
   position: relative;
   margin-top: 25%;
@@ -194,7 +193,6 @@ input:checked + .slider:before {
   position: absolute;
   top: -5%;
   right: 5%;
-  font-size: 5rem;
 }
 
 .content {
