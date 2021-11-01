@@ -2,6 +2,7 @@ let dark = true;
 const hamburger = document.querySelector(".hamburger-icon");
 const xButton = document.querySelector(".closebtn");
 const links = document.querySelectorAll(".nav-link");
+const oLinks = document.querySelectorAll(".link");
 const overlay = document.querySelector(".overlay");
 const headings = Array.from(document.querySelectorAll("h1"));
 const labels = Array.from(document.querySelectorAll(".skill-name"));
@@ -33,6 +34,7 @@ function toggle() {
     document.body.style.backgroundColor = "#fff";
     overlay.style.backgroundColor = "#000";
     links.forEach(link => link.style.color = "#000");
+    oLinks.forEach(link => link.style.color = "#fff");
     xButton.style.color = "#fff";
     document.querySelector(".resume").style.border = "1px solid #000";
 
@@ -58,5 +60,5 @@ function toggle() {
 
 hamburger.addEventListener("click", open);
 xButton.addEventListener("click", close);
-links.forEach(link => link.addEventListener("click", close));
+oLinks.forEach(link => link.addEventListener("click", close));
 toggleSwitch.addEventListener("click", toggle);
