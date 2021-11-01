@@ -48,7 +48,10 @@ function toggle() {
   } else {
     document.body.style.backgroundColor = "black";
     document.querySelector(".resume").style.border = "1px solid #fff";
+    overlay.style.backgroundColor = "#fff";
     links.forEach(link => link.style.color = "#fff");
+    oLinks.forEach(link => link.style.color = "#000");
+    xButton.style.color = "#000";
     text.forEach(item => item.classList.remove("lightmode"));
     headings.forEach(heading => heading.classList.remove("lightmode"));
     icons.forEach(icon => icon.style.color = "#fff");
